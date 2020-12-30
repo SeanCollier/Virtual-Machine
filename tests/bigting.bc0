@@ -1,0 +1,1653 @@
+C0 C0 FF EE       # magic number
+00 15             # version 10, arch = 1 (64 bits)
+
+00 0C             # int pool count
+# int pool
+7F FF FF FF
+80 00 00 00
+00 00 01 90
+00 00 03 E8
+00 00 27 10
+00 01 86 A0
+00 98 96 7F
+00 00 27 10
+0F EB 14 21
+00 00 3B 12
+0F EB 14 21
+00 00 3B 12
+
+12 35             # string pool total size
+# string pool
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 34 2E 35 2D 31 34 2E 32 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 14.5-14.24: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 35 2E 35 2D 31 35 2E 32 37 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 15.5-15.27: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 36 2E 35 2D 31 36 2E 32 37 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 16.5-16.27: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 38 2E 35 2D 31 38 2E 32 35 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 18.5-18.25: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 39 2E 35 2D 31 39 2E 32 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 19.5-19.26: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 30 2E 35 2D 32 30 2E 32 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 20.5-20.26: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 31 2E 35 2D 32 31 2E 32 35 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 21.5-21.25: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 32 2E 35 2D 32 32 2E 32 38 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 22.5-22.28: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 34 2E 35 2D 32 34 2E 33 37 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 24.5-24.37: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 35 2E 35 2D 32 35 2E 33 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 25.5-25.36: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 36 2E 35 2D 32 36 2E 33 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 26.5-26.36: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 38 2E 35 2D 32 38 2E 33 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 28.5-28.36: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 39 2E 35 2D 32 39 2E 34 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 29.5-29.40: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 33 30 2E 35 2D 33 30 2E 35 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 30.5-30.56: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 33 31 2E 35 2D 33 31 2E 33 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 31.5-31.36: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 33 36 2E 35 2D 33 36 2E 32 32 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 36.5-36.22: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 33 37 2E 35 2D 33 37 2E 32 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 37.5-37.26: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 33 38 2E 35 2D 33 38 2E 32 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 38.5-38.26: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 34 30 2E 35 2D 34 30 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 40.5-40.34: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 34 31 2E 35 2D 34 31 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 41.5-41.34: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 34 33 2E 35 2D 34 33 2E 33 35 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 43.5-43.35: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 34 34 2E 35 2D 34 34 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 44.5-44.34: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 34 35 2E 35 2D 34 35 2E 32 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 45.5-45.29: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 34 36 2E 35 2D 34 36 2E 32 38 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 46.5-46.28: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 35 31 2E 35 2D 35 31 2E 32 32 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 51.5-51.22: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 35 32 2E 35 2D 35 32 2E 32 32 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 52.5-52.22: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 35 33 2E 35 2D 35 33 2E 32 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 53.5-53.24: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 35 35 2E 35 2D 35 35 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 55.5-55.34: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 35 36 2E 35 2D 35 36 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 56.5-56.34: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 36 34 2E 35 2D 36 34 2E 32 32 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 64.5-64.22: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 36 35 2E 35 2D 36 35 2E 32 32 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 65.5-65.22: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 36 36 2E 35 2D 36 36 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 66.5-66.23: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 36 37 2E 35 2D 36 37 2E 32 35 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 67.5-67.25: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 36 38 2E 35 2D 36 38 2E 32 35 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 68.5-68.25: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 37 30 2E 35 2D 37 30 2E 32 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 70.5-70.26: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 37 31 2E 35 2D 37 31 2E 32 37 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 71.5-71.27: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 37 32 2E 35 2D 37 32 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 72.5-72.23: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 37 34 2E 35 2D 37 34 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 74.5-74.34: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 37 35 2E 35 2D 37 35 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 75.5-75.34: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 39 38 2E 35 2D 39 38 2E 32 38 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 98.5-98.28: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 39 39 2E 35 2D 39 39 2E 32 38 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 99.5-99.28: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 30 30 2E 35 2D 31 30 30 2E 32 38 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 100.5-100.28: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 30 32 2E 35 2D 31 30 32 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 102.5-102.23: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 30 34 2E 35 2D 31 30 34 2E 32 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 104.5-104.20: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 30 36 2E 35 2D 31 30 36 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 106.5-106.23: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 31 36 2E 31 37 2D 31 31 36 2E 33 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 116.17-116.30: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 31 36 2E 33 36 2D 31 31 36 2E 35 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 116.36-116.50: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 31 37 2E 31 37 2D 31 31 37 2E 33 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 117.17-117.30: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 31 37 2E 33 36 2D 31 31 37 2E 35 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 117.36-117.50: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 31 38 2E 31 37 2D 31 31 38 2E 33 31 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 118.17-118.31: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 31 38 2E 33 37 2D 31 31 38 2E 35 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 118.37-118.50: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 31 39 2E 31 36 2D 31 31 39 2E 32 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 119.16-119.29: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 31 39 2E 33 35 2D 31 31 39 2E 34 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 119.35-119.49: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 30 2E 31 36 2D 31 32 30 2E 33 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 120.16-120.30: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 30 2E 33 36 2D 31 32 30 2E 34 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 120.36-120.49: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 31 2E 31 37 2D 31 32 31 2E 33 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 121.17-121.30: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 31 2E 33 36 2D 31 32 31 2E 35 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 121.36-121.50: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 32 2E 31 37 2D 31 32 32 2E 33 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 122.17-122.30: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 32 2E 33 36 2D 31 32 32 2E 35 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 122.36-122.50: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 33 2E 31 36 2D 31 32 33 2E 33 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 123.16-123.30: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 33 2E 33 36 2D 31 32 33 2E 34 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 123.36-123.49: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 34 2E 31 37 2D 31 32 34 2E 33 31 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 124.17-124.31: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 34 2E 33 37 2D 31 32 34 2E 35 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 124.37-124.50: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 32 36 2E 39 2D 31 32 36 2E 32 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 126.9-126.24: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 33 30 2E 39 2D 31 33 30 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 130.9-130.23: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 33 33 2E 35 2D 31 33 33 2E 32 30 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 133.5-133.20: assert failed"
+00  # ""
+31 00  # "1"
+32 00  # "2"
+7C 20 54 68 69 73 20 69 73 20 61 20 63 72 61 7A 79 20 74 65 73 74 2C 20 72 69 67 68 74 3F 20 49 20 6D 65 61 6E 2C 20 73 74 72 69 6E 67 73 20 73 68 6F 75 6C 64 20 61 6C 77 61 79 73 20 77 6F 72 6B 2E 2E 2E 0A 7C 20 54 68 69 73 20 73 68 6F 75 6C 64 20 6C 6F 6F 6B 20 6C 69 6B 65 20 61 20 62 69 74 20 6F 66 20 74 65 78 74 2E 20 48 6F 70 65 66 75 6C 6C 79 2E 20 4C 65 74 27 73 20 74 72 79 20 6F 74 68 65 72 20 63 6F 6F 6C 20 74 68 69 6E 67 73 20 77 69 74 68 20 74 68 69 73 20 73 74 72 69 6E 67 2E 0A 7C 09 31 20 2B 20 35 20 3D 20 36 0A 7C 20 4E 65 61 74 21 0A 7C 20 4F 6B 20 74 68 61 74 27 73 20 69 74 2E 00  # "| This is a crazy test, right\? I mean, strings should always work...\n| This should look like a bit of text. Hopefully. Let\'s try other cool things with this string.\n|\t1 + 5 = 6\n| Neat!\n| Ok that\'s it."
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 35 38 2E 35 2D 31 35 38 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 158.5-158.23: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 35 39 2E 35 2D 31 35 39 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 159.5-159.23: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 36 30 2E 35 2D 31 36 30 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 160.5-160.23: assert failed"
+00  # ""
+00  # ""
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 36 33 2E 35 2D 31 36 33 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 163.5-163.34: assert failed"
+61 62 63 00  # "abc"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 36 34 2E 35 2D 31 36 34 2E 34 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 164.5-164.43: assert failed"
+61 62 63 00  # "abc"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 36 35 2E 35 2D 31 36 35 2E 34 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 165.5-165.43: assert failed"
+61 62 63 00  # "abc"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 36 36 2E 35 2D 31 36 36 2E 34 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 166.5-166.43: assert failed"
+00  # ""
+5A 59 58 57 56 55 54 53 52 51 50 4F 4E 4D 4C 4B 4A 49 48 47 46 45 44 43 42 41 00  # "ZYXWVUTSRQPONMLKJIHGFEDCBA"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 36 38 2E 35 2D 31 36 38 2E 35 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 168.5-168.59: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 38 30 2E 35 2D 31 38 30 2E 33 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 180.5-180.36: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 39 36 2E 35 2D 31 39 36 2E 32 32 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 196.5-196.22: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 31 39 38 2E 35 2D 31 39 38 2E 32 32 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 198.5-198.22: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 30 30 2E 35 2D 32 30 30 2E 32 35 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 200.5-200.25: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 30 32 2E 35 2D 32 30 32 2E 33 38 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 202.5-202.38: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 30 34 2E 35 2D 32 30 34 2E 33 31 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 204.5-204.31: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 30 36 2E 35 2D 32 30 36 2E 32 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 206.5-206.23: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 30 38 2E 35 2D 32 30 38 2E 34 33 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 208.5-208.43: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 31 32 2E 35 2D 32 31 32 2E 32 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 212.5-212.24: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 31 33 2E 35 2D 32 31 33 2E 32 38 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 213.5-213.28: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 31 35 2E 35 2D 32 31 35 2E 32 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 215.5-215.24: assert failed"
+43 4D 55 00  # "CMU"
+43 4D 55 00  # "CMU"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 32 36 2E 35 2D 32 32 36 2E 34 32 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 226.5-226.42: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 32 37 2E 35 2D 32 32 37 2E 33 34 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 227.5-227.34: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 32 38 2E 35 2D 32 32 38 2E 33 31 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 228.5-228.31: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 32 39 2E 35 2D 32 32 39 2E 32 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 229.5-229.29: assert failed"
+57 61 68 6F 6F 21 00  # "Wahoo!"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 36 31 2E 35 2D 32 36 31 2E 35 37 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 261.5-261.57: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 36 39 2E 35 2D 32 36 39 2E 31 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 269.5-269.19: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 37 31 2E 35 2D 32 37 31 2E 31 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 271.5-271.19: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 37 33 2E 35 2D 32 37 33 2E 31 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 273.5-273.19: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 37 35 2E 35 2D 32 37 35 2E 31 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 275.5-275.19: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 37 37 2E 35 2D 32 37 37 2E 31 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 277.5-277.19: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 37 39 2E 35 2D 32 37 39 2E 31 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 279.5-279.19: assert failed"
+74 65 73 74 73 2F 62 69 67 74 69 6E 67 2E 63 30 3A 20 32 38 34 2E 35 2D 32 38 34 2E 31 39 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/bigting.c0: 284.5-284.19: assert failed"
+
+00 0B             # function count
+# function_pool
+
+#<main>
+00                # number of arguments = 0
+08                # number of local variables = 8
+00 CF             # code length = 207 bytes
+10 01    # bipush 1        # true
+36 00    # vstore 0        # tests = true;
+15 00    # vload 0         # tests
+10 01    # bipush 1        # true
+9F 00 06 # if_cmpeq +6     # if (tests == true) goto <252:cond_true>
+A7 00 09 # goto +9         # goto <253:cond_false>
+# <252:cond_true>
+B8 00 01 # invokestatic 1  # test_arith()
+A7 00 05 # goto +5         # goto <254:cond_end>
+# <253:cond_false>
+10 00    # bipush 0        # false
+# <254:cond_end>
+36 00    # vstore 0        # tests = (tests && test_arith());
+15 00    # vload 0         # tests
+14 10 F3 # aldc 4339       # s[4339] = "tests/bigting.c0: 269.5-269.19: assert failed"
+CF       # assert          # asserttests [failure message on stack]
+15 00    # vload 0         # tests
+10 01    # bipush 1        # true
+9F 00 06 # if_cmpeq +6     # if (tests == true) goto <255:cond_true>
+A7 00 09 # goto +9         # goto <256:cond_false>
+# <255:cond_true>
+B8 00 02 # invokestatic 2  # test_locals()
+A7 00 05 # goto +5         # goto <257:cond_end>
+# <256:cond_false>
+10 00    # bipush 0        # false
+# <257:cond_end>
+36 00    # vstore 0        # tests = (tests && test_locals());
+15 00    # vload 0         # tests
+14 11 21 # aldc 4385       # s[4385] = "tests/bigting.c0: 271.5-271.19: assert failed"
+CF       # assert          # asserttests [failure message on stack]
+15 00    # vload 0         # tests
+10 01    # bipush 1        # true
+9F 00 06 # if_cmpeq +6     # if (tests == true) goto <258:cond_true>
+A7 00 09 # goto +9         # goto <259:cond_false>
+# <258:cond_true>
+B8 00 03 # invokestatic 3  # test_ctrlflow()
+A7 00 05 # goto +5         # goto <260:cond_end>
+# <259:cond_false>
+10 00    # bipush 0        # false
+# <260:cond_end>
+36 00    # vstore 0        # tests = (tests && test_ctrlflow());
+15 00    # vload 0         # tests
+14 11 4F # aldc 4431       # s[4431] = "tests/bigting.c0: 273.5-273.19: assert failed"
+CF       # assert          # asserttests [failure message on stack]
+15 00    # vload 0         # tests
+10 01    # bipush 1        # true
+9F 00 06 # if_cmpeq +6     # if (tests == true) goto <261:cond_true>
+A7 00 0B # goto +11        # goto <262:cond_false>
+# <261:cond_true>
+10 01    # bipush 1        # true
+B8 00 05 # invokestatic 5  # test_strings(true)
+A7 00 05 # goto +5         # goto <263:cond_end>
+# <262:cond_false>
+10 00    # bipush 0        # false
+# <263:cond_end>
+36 00    # vstore 0        # tests = (tests && test_strings(true));
+15 00    # vload 0         # tests
+14 11 7D # aldc 4477       # s[4477] = "tests/bigting.c0: 275.5-275.19: assert failed"
+CF       # assert          # asserttests [failure message on stack]
+15 00    # vload 0         # tests
+10 01    # bipush 1        # true
+9F 00 06 # if_cmpeq +6     # if (tests == true) goto <264:cond_true>
+A7 00 09 # goto +9         # goto <265:cond_false>
+# <264:cond_true>
+B8 00 07 # invokestatic 7  # test_recursive()
+A7 00 05 # goto +5         # goto <266:cond_end>
+# <265:cond_false>
+10 00    # bipush 0        # false
+# <266:cond_end>
+36 00    # vstore 0        # tests = (tests && test_recursive());
+15 00    # vload 0         # tests
+14 11 AB # aldc 4523       # s[4523] = "tests/bigting.c0: 277.5-277.19: assert failed"
+CF       # assert          # asserttests [failure message on stack]
+15 00    # vload 0         # tests
+10 01    # bipush 1        # true
+9F 00 06 # if_cmpeq +6     # if (tests == true) goto <267:cond_true>
+A7 00 09 # goto +9         # goto <268:cond_false>
+# <267:cond_true>
+B8 00 08 # invokestatic 8  # test_mem()
+A7 00 05 # goto +5         # goto <269:cond_end>
+# <268:cond_false>
+10 00    # bipush 0        # false
+# <269:cond_end>
+36 00    # vstore 0        # tests = (tests && test_mem());
+15 00    # vload 0         # tests
+14 11 D9 # aldc 4569       # s[4569] = "tests/bigting.c0: 279.5-279.19: assert failed"
+CF       # assert          # asserttests [failure message on stack]
+15 00    # vload 0         # tests
+10 01    # bipush 1        # true
+9F 00 06 # if_cmpeq +6     # if (tests == true) goto <270:cond_true>
+A7 00 09 # goto +9         # goto <271:cond_false>
+# <270:cond_true>
+B8 00 0A # invokestatic 10 # test_contracts()
+A7 00 05 # goto +5         # goto <272:cond_end>
+# <271:cond_false>
+10 00    # bipush 0        # false
+# <272:cond_end>
+36 00    # vstore 0        # tests = (tests && test_contracts());
+15 00    # vload 0         # tests
+10 01    # bipush 1        # true
+9F 00 06 # if_cmpeq +6     # if (tests == true) goto <273:then>
+A7 00 09 # goto +9         # goto <274:else>
+# <273:then>
+10 00    # bipush 0        # 0
+B0       # return          # 
+A7 00 03 # goto +3         # goto <275:endif>
+# <274:else>
+# <275:endif>
+10 00    # bipush 0        # false
+14 12 07 # aldc 4615       # s[4615] = "tests/bigting.c0: 284.5-284.19: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+10 01    # bipush 1        # 1
+B0       # return          # 
+
+
+#<test_arith>
+00                # number of arguments = 0
+02                # number of local variables = 2
+03 BF             # code length = 959 bytes
+13 00 00 # ildc 0          # c[0] = 2147483647
+36 00    # vstore 0        # INT_MAX = 2147483647;
+13 00 01 # ildc 1          # c[1] = -2147483648
+36 01    # vstore 1        # INT_MIN = -(-2147483648);
+10 00    # bipush 0        # 0
+10 00    # bipush 0        # 0
+60       # iadd            # (0 + 0)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((0 + 0) == 0) goto <00:cond_true>
+A7 00 08 # goto +8         # goto <01:cond_false>
+# <00:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <02:cond_end>
+# <01:cond_false>
+10 00    # bipush 0        # false
+# <02:cond_end>
+14 00 00 # aldc 0          # s[0] = "tests/bigting.c0: 14.5-14.24: assert failed"
+CF       # assert          # assert((0 + 0) == 0) [failure message on stack]
+10 0A    # bipush 10       # 10
+10 0A    # bipush 10       # 10
+60       # iadd            # (10 + 10)
+10 14    # bipush 20       # 20
+9F 00 06 # if_cmpeq +6     # if ((10 + 10) == 20) goto <03:cond_true>
+A7 00 08 # goto +8         # goto <04:cond_false>
+# <03:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <05:cond_end>
+# <04:cond_false>
+10 00    # bipush 0        # false
+# <05:cond_end>
+14 00 2C # aldc 44         # s[44] = "tests/bigting.c0: 15.5-15.27: assert failed"
+CF       # assert          # assert((10 + 10) == 20) [failure message on stack]
+10 14    # bipush 20       # 20
+10 14    # bipush 20       # 20
+60       # iadd            # (20 + 20)
+10 28    # bipush 40       # 40
+9F 00 06 # if_cmpeq +6     # if ((20 + 20) == 40) goto <06:cond_true>
+A7 00 08 # goto +8         # goto <07:cond_false>
+# <06:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <08:cond_end>
+# <07:cond_false>
+10 00    # bipush 0        # false
+# <08:cond_end>
+14 00 58 # aldc 88         # s[88] = "tests/bigting.c0: 16.5-16.27: assert failed"
+CF       # assert          # assert((20 + 20) == 40) [failure message on stack]
+10 00    # bipush 0        # 0
+10 00    # bipush 0        # 0
+64       # isub            # (0 - 0)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((0 - 0) == 0) goto <09:cond_true>
+A7 00 08 # goto +8         # goto <10:cond_false>
+# <09:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <11:cond_end>
+# <10:cond_false>
+10 00    # bipush 0        # false
+# <11:cond_end>
+14 00 84 # aldc 132        # s[132] = "tests/bigting.c0: 18.5-18.25: assert failed"
+CF       # assert          # assert((0 - 0) == 0) [failure message on stack]
+10 0A    # bipush 10       # 10
+10 0A    # bipush 10       # 10
+64       # isub            # (10 - 10)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((10 - 10) == 0) goto <12:cond_true>
+A7 00 08 # goto +8         # goto <13:cond_false>
+# <12:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <14:cond_end>
+# <13:cond_false>
+10 00    # bipush 0        # false
+# <14:cond_end>
+14 00 B0 # aldc 176        # s[176] = "tests/bigting.c0: 19.5-19.26: assert failed"
+CF       # assert          # assert((10 - 10) == 0) [failure message on stack]
+10 14    # bipush 20       # 20
+10 14    # bipush 20       # 20
+64       # isub            # (20 - 20)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((20 - 20) == 0) goto <15:cond_true>
+A7 00 08 # goto +8         # goto <16:cond_false>
+# <15:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <17:cond_end>
+# <16:cond_false>
+10 00    # bipush 0        # false
+# <17:cond_end>
+14 00 DC # aldc 220        # s[220] = "tests/bigting.c0: 20.5-20.26: assert failed"
+CF       # assert          # assert((20 - 20) == 0) [failure message on stack]
+10 00    # bipush 0        # 0
+10 01    # bipush 1        # 1
+64       # isub            # (0 - 1)
+10 FF    # bipush -1       # -1
+9F 00 06 # if_cmpeq +6     # if ((0 - 1) == -(1)) goto <18:cond_true>
+A7 00 08 # goto +8         # goto <19:cond_false>
+# <18:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <20:cond_end>
+# <19:cond_false>
+10 00    # bipush 0        # false
+# <20:cond_end>
+14 01 08 # aldc 264        # s[264] = "tests/bigting.c0: 21.5-21.25: assert failed"
+CF       # assert          # assert((0 - 1) == -(1)) [failure message on stack]
+10 64    # bipush 100      # 100
+10 32    # bipush 50       # 50
+64       # isub            # (100 - 50)
+10 32    # bipush 50       # 50
+9F 00 06 # if_cmpeq +6     # if ((100 - 50) == 50) goto <21:cond_true>
+A7 00 08 # goto +8         # goto <22:cond_false>
+# <21:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <23:cond_end>
+# <22:cond_false>
+10 00    # bipush 0        # false
+# <23:cond_end>
+14 01 34 # aldc 308        # s[308] = "tests/bigting.c0: 22.5-22.28: assert failed"
+CF       # assert          # assert((100 - 50) == 50) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+15 01    # vload 1         # INT_MIN
+60       # iadd            # (INT_MAX + INT_MIN)
+10 FF    # bipush -1       # -1
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX + INT_MIN) == -(1)) goto <24:cond_true>
+A7 00 08 # goto +8         # goto <25:cond_false>
+# <24:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <26:cond_end>
+# <25:cond_false>
+10 00    # bipush 0        # false
+# <26:cond_end>
+14 01 60 # aldc 352        # s[352] = "tests/bigting.c0: 24.5-24.37: assert failed"
+CF       # assert          # assert((INT_MAX + INT_MIN) == -(1)) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+15 00    # vload 0         # INT_MAX
+64       # isub            # (INT_MAX - INT_MAX)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX - INT_MAX) == 0) goto <27:cond_true>
+A7 00 08 # goto +8         # goto <28:cond_false>
+# <27:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <29:cond_end>
+# <28:cond_false>
+10 00    # bipush 0        # false
+# <29:cond_end>
+14 01 8C # aldc 396        # s[396] = "tests/bigting.c0: 25.5-25.36: assert failed"
+CF       # assert          # assert((INT_MAX - INT_MAX) == 0) [failure message on stack]
+15 01    # vload 1         # INT_MIN
+15 01    # vload 1         # INT_MIN
+64       # isub            # (INT_MIN - INT_MIN)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((INT_MIN - INT_MIN) == 0) goto <30:cond_true>
+A7 00 08 # goto +8         # goto <31:cond_false>
+# <30:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <32:cond_end>
+# <31:cond_false>
+10 00    # bipush 0        # false
+# <32:cond_end>
+14 01 B8 # aldc 440        # s[440] = "tests/bigting.c0: 26.5-26.36: assert failed"
+CF       # assert          # assert((INT_MIN - INT_MIN) == 0) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+10 01    # bipush 1        # 1
+60       # iadd            # (INT_MAX + 1)
+15 01    # vload 1         # INT_MIN
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX + 1) == INT_MIN) goto <33:cond_true>
+A7 00 08 # goto +8         # goto <34:cond_false>
+# <33:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <35:cond_end>
+# <34:cond_false>
+10 00    # bipush 0        # false
+# <35:cond_end>
+14 01 E4 # aldc 484        # s[484] = "tests/bigting.c0: 28.5-28.36: assert failed"
+CF       # assert          # assert((INT_MAX + 1) == INT_MIN) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+10 02    # bipush 2        # 2
+60       # iadd            # (INT_MAX + 2)
+15 01    # vload 1         # INT_MIN
+10 01    # bipush 1        # 1
+60       # iadd            # (INT_MIN + 1)
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX + 2) == (INT_MIN + 1)) goto <36:cond_true>
+A7 00 08 # goto +8         # goto <37:cond_false>
+# <36:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <38:cond_end>
+# <37:cond_false>
+10 00    # bipush 0        # false
+# <38:cond_end>
+14 02 10 # aldc 528        # s[528] = "tests/bigting.c0: 29.5-29.40: assert failed"
+CF       # assert          # assert((INT_MAX + 2) == (INT_MIN + 1)) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+15 00    # vload 0         # INT_MAX
+60       # iadd            # (INT_MAX + INT_MAX)
+15 00    # vload 0         # INT_MAX
+60       # iadd            # ((INT_MAX + INT_MAX) + INT_MAX)
+15 00    # vload 0         # INT_MAX
+10 02    # bipush 2        # 2
+64       # isub            # (INT_MAX - 2)
+9F 00 06 # if_cmpeq +6     # if (((INT_MAX + INT_MAX) + INT_MAX) == (INT_MAX - 2)) goto <39:cond_true>
+A7 00 08 # goto +8         # goto <40:cond_false>
+# <39:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <41:cond_end>
+# <40:cond_false>
+10 00    # bipush 0        # false
+# <41:cond_end>
+14 02 3C # aldc 572        # s[572] = "tests/bigting.c0: 30.5-30.56: assert failed"
+CF       # assert          # assert(((INT_MAX + INT_MAX) + INT_MAX) == (INT_MAX - 2)) [failure message on stack]
+15 01    # vload 1         # INT_MIN
+10 01    # bipush 1        # 1
+64       # isub            # (INT_MIN - 1)
+15 00    # vload 0         # INT_MAX
+9F 00 06 # if_cmpeq +6     # if ((INT_MIN - 1) == INT_MAX) goto <42:cond_true>
+A7 00 08 # goto +8         # goto <43:cond_false>
+# <42:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <44:cond_end>
+# <43:cond_false>
+10 00    # bipush 0        # false
+# <44:cond_end>
+14 02 68 # aldc 616        # s[616] = "tests/bigting.c0: 31.5-31.36: assert failed"
+CF       # assert          # assert((INT_MIN - 1) == INT_MAX) [failure message on stack]
+10 00    # bipush 0        # 0
+10 00    # bipush 0        # 0
+68       # imul            # (0 * 0)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((0 * 0) == 0) goto <45:cond_true>
+A7 00 08 # goto +8         # goto <46:cond_false>
+# <45:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <47:cond_end>
+# <46:cond_false>
+10 00    # bipush 0        # false
+# <47:cond_end>
+14 02 94 # aldc 660        # s[660] = "tests/bigting.c0: 36.5-36.22: assert failed"
+CF       # assert          # assert((0 * 0) == 0) [failure message on stack]
+10 0A    # bipush 10       # 10
+10 0A    # bipush 10       # 10
+68       # imul            # (10 * 10)
+10 64    # bipush 100      # 100
+9F 00 06 # if_cmpeq +6     # if ((10 * 10) == 100) goto <48:cond_true>
+A7 00 08 # goto +8         # goto <49:cond_false>
+# <48:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <50:cond_end>
+# <49:cond_false>
+10 00    # bipush 0        # false
+# <50:cond_end>
+14 02 C0 # aldc 704        # s[704] = "tests/bigting.c0: 37.5-37.26: assert failed"
+CF       # assert          # assert((10 * 10) == 100) [failure message on stack]
+10 14    # bipush 20       # 20
+10 14    # bipush 20       # 20
+68       # imul            # (20 * 20)
+13 00 02 # ildc 2          # c[2] = 400
+9F 00 06 # if_cmpeq +6     # if ((20 * 20) == 400) goto <51:cond_true>
+A7 00 08 # goto +8         # goto <52:cond_false>
+# <51:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <53:cond_end>
+# <52:cond_false>
+10 00    # bipush 0        # false
+# <53:cond_end>
+14 02 EC # aldc 748        # s[748] = "tests/bigting.c0: 38.5-38.26: assert failed"
+CF       # assert          # assert((20 * 20) == 400) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+10 01    # bipush 1        # 1
+68       # imul            # (INT_MAX * 1)
+15 00    # vload 0         # INT_MAX
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX * 1) == INT_MAX) goto <54:cond_true>
+A7 00 08 # goto +8         # goto <55:cond_false>
+# <54:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <56:cond_end>
+# <55:cond_false>
+10 00    # bipush 0        # false
+# <56:cond_end>
+14 03 18 # aldc 792        # s[792] = "tests/bigting.c0: 40.5-40.34: assert failed"
+CF       # assert          # assert((INT_MAX * 1) == INT_MAX) [failure message on stack]
+15 01    # vload 1         # INT_MIN
+10 01    # bipush 1        # 1
+68       # imul            # (INT_MIN * 1)
+15 01    # vload 1         # INT_MIN
+9F 00 06 # if_cmpeq +6     # if ((INT_MIN * 1) == INT_MIN) goto <57:cond_true>
+A7 00 08 # goto +8         # goto <58:cond_false>
+# <57:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <59:cond_end>
+# <58:cond_false>
+10 00    # bipush 0        # false
+# <59:cond_end>
+14 03 44 # aldc 836        # s[836] = "tests/bigting.c0: 41.5-41.34: assert failed"
+CF       # assert          # assert((INT_MIN * 1) == INT_MIN) [failure message on stack]
+15 01    # vload 1         # INT_MIN
+10 FF    # bipush -1       # -1
+68       # imul            # (INT_MIN * -(1))
+15 01    # vload 1         # INT_MIN
+9F 00 06 # if_cmpeq +6     # if ((INT_MIN * -(1)) == INT_MIN) goto <60:cond_true>
+A7 00 08 # goto +8         # goto <61:cond_false>
+# <60:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <62:cond_end>
+# <61:cond_false>
+10 00    # bipush 0        # false
+# <62:cond_end>
+14 03 70 # aldc 880        # s[880] = "tests/bigting.c0: 43.5-43.35: assert failed"
+CF       # assert          # assert((INT_MIN * -(1)) == INT_MIN) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+15 00    # vload 0         # INT_MAX
+68       # imul            # (INT_MAX * INT_MAX)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX * INT_MAX) == 1) goto <63:cond_true>
+A7 00 08 # goto +8         # goto <64:cond_false>
+# <63:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <65:cond_end>
+# <64:cond_false>
+10 00    # bipush 0        # false
+# <65:cond_end>
+14 03 9C # aldc 924        # s[924] = "tests/bigting.c0: 44.5-44.34: assert failed"
+CF       # assert          # assert((INT_MAX * INT_MAX) == 1) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+10 02    # bipush 2        # 2
+68       # imul            # (INT_MAX * 2)
+10 FE    # bipush -2       # -2
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX * 2) == -(2)) goto <66:cond_true>
+A7 00 08 # goto +8         # goto <67:cond_false>
+# <66:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <68:cond_end>
+# <67:cond_false>
+10 00    # bipush 0        # false
+# <68:cond_end>
+14 03 C8 # aldc 968        # s[968] = "tests/bigting.c0: 45.5-45.29: assert failed"
+CF       # assert          # assert((INT_MAX * 2) == -(2)) [failure message on stack]
+15 01    # vload 1         # INT_MIN
+10 02    # bipush 2        # 2
+68       # imul            # (INT_MIN * 2)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((INT_MIN * 2) == 0) goto <69:cond_true>
+A7 00 08 # goto +8         # goto <70:cond_false>
+# <69:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <71:cond_end>
+# <70:cond_false>
+10 00    # bipush 0        # false
+# <71:cond_end>
+14 03 F4 # aldc 1012       # s[1012] = "tests/bigting.c0: 46.5-46.28: assert failed"
+CF       # assert          # assert((INT_MIN * 2) == 0) [failure message on stack]
+10 00    # bipush 0        # 0
+10 01    # bipush 1        # 1
+6C       # idiv            # (0 / 1)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((0 / 1) == 0) goto <72:cond_true>
+A7 00 08 # goto +8         # goto <73:cond_false>
+# <72:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <74:cond_end>
+# <73:cond_false>
+10 00    # bipush 0        # false
+# <74:cond_end>
+14 04 20 # aldc 1056       # s[1056] = "tests/bigting.c0: 51.5-51.22: assert failed"
+CF       # assert          # assert((0 / 1) == 0) [failure message on stack]
+10 02    # bipush 2        # 2
+10 02    # bipush 2        # 2
+6C       # idiv            # (2 / 2)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if ((2 / 2) == 1) goto <75:cond_true>
+A7 00 08 # goto +8         # goto <76:cond_false>
+# <75:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <77:cond_end>
+# <76:cond_false>
+10 00    # bipush 0        # false
+# <77:cond_end>
+14 04 4C # aldc 1100       # s[1100] = "tests/bigting.c0: 52.5-52.22: assert failed"
+CF       # assert          # assert((2 / 2) == 1) [failure message on stack]
+10 14    # bipush 20       # 20
+10 14    # bipush 20       # 20
+6C       # idiv            # (20 / 20)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if ((20 / 20) == 1) goto <78:cond_true>
+A7 00 08 # goto +8         # goto <79:cond_false>
+# <78:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <80:cond_end>
+# <79:cond_false>
+10 00    # bipush 0        # false
+# <80:cond_end>
+14 04 78 # aldc 1144       # s[1144] = "tests/bigting.c0: 53.5-53.24: assert failed"
+CF       # assert          # assert((20 / 20) == 1) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+15 00    # vload 0         # INT_MAX
+6C       # idiv            # (INT_MAX / INT_MAX)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX / INT_MAX) == 1) goto <81:cond_true>
+A7 00 08 # goto +8         # goto <82:cond_false>
+# <81:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <83:cond_end>
+# <82:cond_false>
+10 00    # bipush 0        # false
+# <83:cond_end>
+14 04 A4 # aldc 1188       # s[1188] = "tests/bigting.c0: 55.5-55.34: assert failed"
+CF       # assert          # assert((INT_MAX / INT_MAX) == 1) [failure message on stack]
+15 01    # vload 1         # INT_MIN
+15 01    # vload 1         # INT_MIN
+6C       # idiv            # (INT_MIN / INT_MIN)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if ((INT_MIN / INT_MIN) == 1) goto <84:cond_true>
+A7 00 08 # goto +8         # goto <85:cond_false>
+# <84:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <86:cond_end>
+# <85:cond_false>
+10 00    # bipush 0        # false
+# <86:cond_end>
+14 04 D0 # aldc 1232       # s[1232] = "tests/bigting.c0: 56.5-56.34: assert failed"
+CF       # assert          # assert((INT_MIN / INT_MIN) == 1) [failure message on stack]
+10 00    # bipush 0        # 0
+10 01    # bipush 1        # 1
+70       # irem            # (0 % 1)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((0 % 1) == 0) goto <87:cond_true>
+A7 00 08 # goto +8         # goto <88:cond_false>
+# <87:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <89:cond_end>
+# <88:cond_false>
+10 00    # bipush 0        # false
+# <89:cond_end>
+14 04 FC # aldc 1276       # s[1276] = "tests/bigting.c0: 64.5-64.22: assert failed"
+CF       # assert          # assert((0 % 1) == 0) [failure message on stack]
+10 05    # bipush 5        # 5
+10 01    # bipush 1        # 1
+70       # irem            # (5 % 1)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((5 % 1) == 0) goto <90:cond_true>
+A7 00 08 # goto +8         # goto <91:cond_false>
+# <90:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <92:cond_end>
+# <91:cond_false>
+10 00    # bipush 0        # false
+# <92:cond_end>
+14 05 28 # aldc 1320       # s[1320] = "tests/bigting.c0: 65.5-65.22: assert failed"
+CF       # assert          # assert((5 % 1) == 0) [failure message on stack]
+10 0A    # bipush 10       # 10
+10 03    # bipush 3        # 3
+70       # irem            # (10 % 3)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if ((10 % 3) == 1) goto <93:cond_true>
+A7 00 08 # goto +8         # goto <94:cond_false>
+# <93:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <95:cond_end>
+# <94:cond_false>
+10 00    # bipush 0        # false
+# <95:cond_end>
+14 05 54 # aldc 1364       # s[1364] = "tests/bigting.c0: 66.5-66.23: assert failed"
+CF       # assert          # assert((10 % 3) == 1) [failure message on stack]
+10 6F    # bipush 111      # 111
+10 0A    # bipush 10       # 10
+70       # irem            # (111 % 10)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if ((111 % 10) == 1) goto <96:cond_true>
+A7 00 08 # goto +8         # goto <97:cond_false>
+# <96:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <98:cond_end>
+# <97:cond_false>
+10 00    # bipush 0        # false
+# <98:cond_end>
+14 05 80 # aldc 1408       # s[1408] = "tests/bigting.c0: 67.5-67.25: assert failed"
+CF       # assert          # assert((111 % 10) == 1) [failure message on stack]
+10 70    # bipush 112      # 112
+10 0A    # bipush 10       # 10
+70       # irem            # (112 % 10)
+10 02    # bipush 2        # 2
+9F 00 06 # if_cmpeq +6     # if ((112 % 10) == 2) goto <99:cond_true>
+A7 00 08 # goto +8         # goto <100:cond_false>
+# <99:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <101:cond_end>
+# <100:cond_false>
+10 00    # bipush 0        # false
+# <101:cond_end>
+14 05 AC # aldc 1452       # s[1452] = "tests/bigting.c0: 68.5-68.25: assert failed"
+CF       # assert          # assert((112 % 10) == 2) [failure message on stack]
+10 85    # bipush -123     # -123
+10 05    # bipush 5        # 5
+70       # irem            # (-(123) % 5)
+10 FD    # bipush -3       # -3
+9F 00 06 # if_cmpeq +6     # if ((-(123) % 5) == -(3)) goto <102:cond_true>
+A7 00 08 # goto +8         # goto <103:cond_false>
+# <102:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <104:cond_end>
+# <103:cond_false>
+10 00    # bipush 0        # false
+# <104:cond_end>
+14 05 D8 # aldc 1496       # s[1496] = "tests/bigting.c0: 70.5-70.26: assert failed"
+CF       # assert          # assert((-(123) % 5) == -(3)) [failure message on stack]
+10 85    # bipush -123     # -123
+10 FB    # bipush -5       # -5
+70       # irem            # (-(123) % -(5))
+10 FD    # bipush -3       # -3
+9F 00 06 # if_cmpeq +6     # if ((-(123) % -(5)) == -(3)) goto <105:cond_true>
+A7 00 08 # goto +8         # goto <106:cond_false>
+# <105:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <107:cond_end>
+# <106:cond_false>
+10 00    # bipush 0        # false
+# <107:cond_end>
+14 06 04 # aldc 1540       # s[1540] = "tests/bigting.c0: 71.5-71.27: assert failed"
+CF       # assert          # assert((-(123) % -(5)) == -(3)) [failure message on stack]
+10 05    # bipush 5        # 5
+10 FF    # bipush -1       # -1
+70       # irem            # (5 % -(1))
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((5 % -(1)) == 0) goto <108:cond_true>
+A7 00 08 # goto +8         # goto <109:cond_false>
+# <108:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <110:cond_end>
+# <109:cond_false>
+10 00    # bipush 0        # false
+# <110:cond_end>
+14 06 30 # aldc 1584       # s[1584] = "tests/bigting.c0: 72.5-72.23: assert failed"
+CF       # assert          # assert((5 % -(1)) == 0) [failure message on stack]
+15 00    # vload 0         # INT_MAX
+15 00    # vload 0         # INT_MAX
+70       # irem            # (INT_MAX % INT_MAX)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((INT_MAX % INT_MAX) == 0) goto <111:cond_true>
+A7 00 08 # goto +8         # goto <112:cond_false>
+# <111:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <113:cond_end>
+# <112:cond_false>
+10 00    # bipush 0        # false
+# <113:cond_end>
+14 06 5C # aldc 1628       # s[1628] = "tests/bigting.c0: 74.5-74.34: assert failed"
+CF       # assert          # assert((INT_MAX % INT_MAX) == 0) [failure message on stack]
+15 01    # vload 1         # INT_MIN
+15 01    # vload 1         # INT_MIN
+70       # irem            # (INT_MIN % INT_MIN)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((INT_MIN % INT_MIN) == 0) goto <114:cond_true>
+A7 00 08 # goto +8         # goto <115:cond_false>
+# <114:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <116:cond_end>
+# <115:cond_false>
+10 00    # bipush 0        # false
+# <116:cond_end>
+14 06 88 # aldc 1672       # s[1672] = "tests/bigting.c0: 75.5-75.34: assert failed"
+CF       # assert          # assert((INT_MIN % INT_MIN) == 0) [failure message on stack]
+10 01    # bipush 1        # true
+B0       # return          # 
+
+
+#<test_locals>
+00                # number of arguments = 0
+08                # number of local variables = 8
+00 BD             # code length = 189 bytes
+10 00    # bipush 0        # 0
+36 00    # vstore 0        # i0 = 0;
+10 0A    # bipush 10       # 10
+36 01    # vstore 1        # i10 = 10;
+10 64    # bipush 100      # 100
+36 02    # vstore 2        # i100 = 100;
+13 00 03 # ildc 3          # c[3] = 1000
+36 03    # vstore 3        # i1000 = 1000;
+13 00 04 # ildc 4          # c[4] = 10000
+36 04    # vstore 4        # i10000 = 10000;
+13 00 05 # ildc 5          # c[5] = 100000
+36 05    # vstore 5        # i100000 = 100000;
+13 00 06 # ildc 6          # c[6] = 9999999
+36 06    # vstore 6        # i9s = 9999999;
+10 0A    # bipush 10       # 10
+36 07    # vstore 7        # j = 10;
+15 00    # vload 0         # i0
+15 01    # vload 1         # i10
+60       # iadd            # (i0 + i10)
+10 0A    # bipush 10       # 10
+9F 00 06 # if_cmpeq +6     # if ((i0 + i10) == 10) goto <117:cond_true>
+A7 00 08 # goto +8         # goto <118:cond_false>
+# <117:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <119:cond_end>
+# <118:cond_false>
+10 00    # bipush 0        # false
+# <119:cond_end>
+14 06 B4 # aldc 1716       # s[1716] = "tests/bigting.c0: 98.5-98.28: assert failed"
+CF       # assert          # assert((i0 + i10) == 10) [failure message on stack]
+15 01    # vload 1         # i10
+15 01    # vload 1         # i10
+64       # isub            # (i10 - i10)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if ((i10 - i10) == 0) goto <120:cond_true>
+A7 00 08 # goto +8         # goto <121:cond_false>
+# <120:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <122:cond_end>
+# <121:cond_false>
+10 00    # bipush 0        # false
+# <122:cond_end>
+14 06 E0 # aldc 1760       # s[1760] = "tests/bigting.c0: 99.5-99.28: assert failed"
+CF       # assert          # assert((i10 - i10) == 0) [failure message on stack]
+15 06    # vload 6         # i9s
+15 06    # vload 6         # i9s
+6C       # idiv            # (i9s / i9s)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if ((i9s / i9s) == 1) goto <123:cond_true>
+A7 00 08 # goto +8         # goto <124:cond_false>
+# <123:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <125:cond_end>
+# <124:cond_false>
+10 00    # bipush 0        # false
+# <125:cond_end>
+14 07 0C # aldc 1804       # s[1804] = "tests/bigting.c0: 100.5-100.28: assert failed"
+CF       # assert          # assert((i9s / i9s) == 1) [failure message on stack]
+15 02    # vload 2         # i100
+36 07    # vstore 7        # j = i100;
+15 07    # vload 7         # j
+15 02    # vload 2         # i100
+9F 00 06 # if_cmpeq +6     # if (j == i100) goto <126:cond_true>
+A7 00 08 # goto +8         # goto <127:cond_false>
+# <126:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <128:cond_end>
+# <127:cond_false>
+10 00    # bipush 0        # false
+# <128:cond_end>
+14 07 3A # aldc 1850       # s[1850] = "tests/bigting.c0: 102.5-102.23: assert failed"
+CF       # assert          # assert(j == i100) [failure message on stack]
+15 02    # vload 2         # i100
+10 05    # bipush 5        # 5
+70       # irem            # (i100 % 5)
+36 07    # vstore 7        # j = (i100 % 5);
+15 07    # vload 7         # j
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if (j == 0) goto <129:cond_true>
+A7 00 08 # goto +8         # goto <130:cond_false>
+# <129:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <131:cond_end>
+# <130:cond_false>
+10 00    # bipush 0        # false
+# <131:cond_end>
+14 07 68 # aldc 1896       # s[1896] = "tests/bigting.c0: 104.5-104.20: assert failed"
+CF       # assert          # assert(j == 0) [failure message on stack]
+10 63    # bipush 99       # 99
+36 06    # vstore 6        # i9s = 99;
+15 06    # vload 6         # i9s
+10 63    # bipush 99       # 99
+9F 00 06 # if_cmpeq +6     # if (i9s == 99) goto <132:cond_true>
+A7 00 08 # goto +8         # goto <133:cond_false>
+# <132:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <134:cond_end>
+# <133:cond_false>
+10 00    # bipush 0        # false
+# <134:cond_end>
+14 07 96 # aldc 1942       # s[1942] = "tests/bigting.c0: 106.5-106.23: assert failed"
+CF       # assert          # assert(i9s == 99) [failure message on stack]
+10 01    # bipush 1        # true
+B0       # return          # 
+
+
+#<test_ctrlflow>
+00                # number of arguments = 0
+08                # number of local variables = 8
+01 57             # code length = 343 bytes
+10 00    # bipush 0        # 0
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if (0 == 0) goto <135:then>
+A7 00 0C # goto +12        # goto <136:else>
+# <135:then>
+10 01    # bipush 1        # true
+14 07 C4 # aldc 1988       # s[1988] = "tests/bigting.c0: 116.17-116.30: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+A7 00 09 # goto +9         # goto <137:endif>
+# <136:else>
+10 00    # bipush 0        # false
+14 07 F3 # aldc 2035       # s[2035] = "tests/bigting.c0: 116.36-116.50: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+# <137:endif>
+10 01    # bipush 1        # 1
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if (1 == 1) goto <138:then>
+A7 00 0C # goto +12        # goto <139:else>
+# <138:then>
+10 01    # bipush 1        # true
+14 08 22 # aldc 2082       # s[2082] = "tests/bigting.c0: 117.17-117.30: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+A7 00 09 # goto +9         # goto <140:endif>
+# <139:else>
+10 00    # bipush 0        # false
+14 08 51 # aldc 2129       # s[2129] = "tests/bigting.c0: 117.36-117.50: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+# <140:endif>
+10 01    # bipush 1        # 1
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if (1 == 0) goto <141:then>
+A7 00 0C # goto +12        # goto <142:else>
+# <141:then>
+10 00    # bipush 0        # false
+14 08 80 # aldc 2176       # s[2176] = "tests/bigting.c0: 118.17-118.31: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+A7 00 09 # goto +9         # goto <143:endif>
+# <142:else>
+10 01    # bipush 1        # true
+14 08 AF # aldc 2223       # s[2223] = "tests/bigting.c0: 118.37-118.50: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+# <143:endif>
+10 00    # bipush 0        # 0
+10 01    # bipush 1        # 1
+A1 00 06 # if_icmplt +6    # if (0 < 1) goto <144:then>
+A7 00 0C # goto +12        # goto <145:else>
+# <144:then>
+10 01    # bipush 1        # true
+14 08 DE # aldc 2270       # s[2270] = "tests/bigting.c0: 119.16-119.29: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+A7 00 09 # goto +9         # goto <146:endif>
+# <145:else>
+10 00    # bipush 0        # false
+14 09 0D # aldc 2317       # s[2317] = "tests/bigting.c0: 119.35-119.49: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+# <146:endif>
+10 00    # bipush 0        # 0
+10 01    # bipush 1        # 1
+A3 00 06 # if_icmpgt +6    # if (0 > 1) goto <147:then>
+A7 00 0C # goto +12        # goto <148:else>
+# <147:then>
+10 00    # bipush 0        # false
+14 09 3C # aldc 2364       # s[2364] = "tests/bigting.c0: 120.16-120.30: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+A7 00 09 # goto +9         # goto <149:endif>
+# <148:else>
+10 01    # bipush 1        # true
+14 09 6B # aldc 2411       # s[2411] = "tests/bigting.c0: 120.36-120.49: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+# <149:endif>
+10 00    # bipush 0        # 0
+10 01    # bipush 1        # 1
+A4 00 06 # if_icmple +6    # if (0 <= 1) goto <150:then>
+A7 00 0C # goto +12        # goto <151:else>
+# <150:then>
+10 01    # bipush 1        # true
+14 09 9A # aldc 2458       # s[2458] = "tests/bigting.c0: 121.17-121.30: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+A7 00 09 # goto +9         # goto <152:endif>
+# <151:else>
+10 00    # bipush 0        # false
+14 09 C9 # aldc 2505       # s[2505] = "tests/bigting.c0: 121.36-121.50: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+# <152:endif>
+10 01    # bipush 1        # 1
+10 01    # bipush 1        # 1
+A4 00 06 # if_icmple +6    # if (1 <= 1) goto <153:then>
+A7 00 0C # goto +12        # goto <154:else>
+# <153:then>
+10 01    # bipush 1        # true
+14 09 F8 # aldc 2552       # s[2552] = "tests/bigting.c0: 122.17-122.30: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+A7 00 09 # goto +9         # goto <155:endif>
+# <154:else>
+10 00    # bipush 0        # false
+14 0A 27 # aldc 2599       # s[2599] = "tests/bigting.c0: 122.36-122.50: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+# <155:endif>
+10 00    # bipush 0        # 0
+10 01    # bipush 1        # 1
+A3 00 06 # if_icmpgt +6    # if (0 > 1) goto <156:then>
+A7 00 0C # goto +12        # goto <157:else>
+# <156:then>
+10 00    # bipush 0        # false
+14 0A 56 # aldc 2646       # s[2646] = "tests/bigting.c0: 123.16-123.30: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+A7 00 09 # goto +9         # goto <158:endif>
+# <157:else>
+10 01    # bipush 1        # true
+14 0A 85 # aldc 2693       # s[2693] = "tests/bigting.c0: 123.36-123.49: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+# <158:endif>
+10 00    # bipush 0        # 0
+10 01    # bipush 1        # 1
+A2 00 06 # if_icmpge +6    # if (0 >= 1) goto <159:then>
+A7 00 0C # goto +12        # goto <160:else>
+# <159:then>
+10 00    # bipush 0        # false
+14 0A B4 # aldc 2740       # s[2740] = "tests/bigting.c0: 124.17-124.31: assert failed"
+CF       # assert          # assertfalse [failure message on stack]
+A7 00 09 # goto +9         # goto <161:endif>
+# <160:else>
+10 01    # bipush 1        # true
+14 0A E3 # aldc 2787       # s[2787] = "tests/bigting.c0: 124.37-124.50: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+# <161:endif>
+10 00    # bipush 0        # 0
+36 00    # vstore 0        # i = 0;
+# <162:loop>
+15 00    # vload 0         # i
+10 0A    # bipush 10       # 10
+A1 00 06 # if_icmplt +6    # if (i < 10) goto <163:body>
+A7 00 22 # goto +34        # goto <164:exit>
+# <163:body>
+15 00    # vload 0         # i
+10 00    # bipush 0        # 0
+A2 00 06 # if_icmpge +6    # if (i >= 0) goto <165:cond_true>
+A7 00 08 # goto +8         # goto <166:cond_false>
+# <165:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <167:cond_end>
+# <166:cond_false>
+10 00    # bipush 0        # false
+# <167:cond_end>
+14 0B 12 # aldc 2834       # s[2834] = "tests/bigting.c0: 126.9-126.24: assert failed"
+CF       # assert          # assert(i >= 0) [failure message on stack]
+15 00    # vload 0         # i
+10 01    # bipush 1        # 1
+60       # iadd            # 
+36 00    # vstore 0        # i += 1;
+A7 FF DA # goto -38        # goto <162:loop>
+# <164:exit>
+10 0A    # bipush 10       # 10
+36 00    # vstore 0        # i = 10;
+# <168:loop>
+15 00    # vload 0         # i
+10 00    # bipush 0        # 0
+A3 00 06 # if_icmpgt +6    # if (i > 0) goto <169:body>
+A7 00 22 # goto +34        # goto <170:exit>
+# <169:body>
+15 00    # vload 0         # i
+10 00    # bipush 0        # 0
+A3 00 06 # if_icmpgt +6    # if (i > 0) goto <171:cond_true>
+A7 00 08 # goto +8         # goto <172:cond_false>
+# <171:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <173:cond_end>
+# <172:cond_false>
+10 00    # bipush 0        # false
+# <173:cond_end>
+14 0B 40 # aldc 2880       # s[2880] = "tests/bigting.c0: 130.9-130.23: assert failed"
+CF       # assert          # assert(i > 0) [failure message on stack]
+15 00    # vload 0         # i
+10 01    # bipush 1        # 1
+64       # isub            # 
+36 00    # vstore 0        # i -= 1;
+A7 FF DA # goto -38        # goto <168:loop>
+# <170:exit>
+15 00    # vload 0         # i
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if (i == 0) goto <174:cond_true>
+A7 00 08 # goto +8         # goto <175:cond_false>
+# <174:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <176:cond_end>
+# <175:cond_false>
+10 00    # bipush 0        # false
+# <176:cond_end>
+14 0B 6E # aldc 2926       # s[2926] = "tests/bigting.c0: 133.5-133.20: assert failed"
+CF       # assert          # assert(i == 0) [failure message on stack]
+10 0A    # bipush 10       # 10
+36 00    # vstore 0        # i = 10;
+10 01    # bipush 1        # true
+B0       # return          # 
+
+
+#<test_strings_recursive>
+02                # number of arguments = 2
+08                # number of local variables = 8
+00 2A             # code length = 42 bytes
+15 00    # vload 0         # x
+10 1A    # bipush 26       # 26
+9F 00 06 # if_cmpeq +6     # if (x == 26) goto <177:then>
+A7 00 0A # goto +10        # goto <178:else>
+# <177:then>
+14 0B 9C # aldc 2972       # s[2972] = ""
+B0       # return          # 
+A7 00 1C # goto +28        # goto <179:endif>
+# <178:else>
+15 00    # vload 0         # x
+10 01    # bipush 1        # 1
+60       # iadd            # (x + 1)
+15 01    # vload 1         # s
+B8 00 04 # invokestatic 4  # test_strings_recursive((x + 1), s)
+10 41    # bipush 65       # 65
+15 00    # vload 0         # x
+60       # iadd            # (65 + x)
+B7 00 02 # invokenative 2  # char_chr((65 + x))
+B7 00 01 # invokenative 1  # string_fromchar(char_chr((65 + x)))
+B7 00 00 # invokenative 0  # string_join(test_strings_recursive((x + 1), s), string_fromchar(char_chr((65 + x))))
+B0       # return          # 
+# <179:endif>
+
+
+#<test_strings>
+01                # number of arguments = 1
+08                # number of local variables = 8
+00 E1             # code length = 225 bytes
+14 0B 9D # aldc 2973       # s[2973] = "1"
+36 01    # vstore 1        # s1 = "1";
+14 0B 9F # aldc 2975       # s[2975] = "2"
+36 02    # vstore 2        # s2 = "2";
+14 0B A1 # aldc 2977       # s[2977] = "| This is a crazy test, right\? I mean, strings should always work...\n| This should look like a bit of text. Hopefully. Let\'s try other cool things with this string.\n|\t1 + 5 = 6\n| Neat!\n| Ok that\'s it."
+36 03    # vstore 3        # s3 = "| This is a crazy test, right\? I mean, strings should always work...\n| This should look like a bit of text. Hopefully. Let\'s try other cool things with this string.\n|\t1 + 5 = 6\n| Neat!\n| Ok that\'s it.";
+10 61    # bipush 97       # 'a'
+36 04    # vstore 4        # c1 = 'a';
+10 62    # bipush 98       # 'b'
+36 05    # vstore 5        # c2 = 'b';
+10 63    # bipush 99       # 'c'
+36 06    # vstore 6        # c3 = 'c';
+15 04    # vload 4         # c1
+10 61    # bipush 97       # 'a'
+9F 00 06 # if_cmpeq +6     # if (c1 == 'a') goto <180:cond_true>
+A7 00 08 # goto +8         # goto <181:cond_false>
+# <180:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <182:cond_end>
+# <181:cond_false>
+10 00    # bipush 0        # false
+# <182:cond_end>
+14 0C 6A # aldc 3178       # s[3178] = "tests/bigting.c0: 158.5-158.23: assert failed"
+CF       # assert          # assert(c1 == 'a') [failure message on stack]
+15 05    # vload 5         # c2
+10 62    # bipush 98       # 'b'
+9F 00 06 # if_cmpeq +6     # if (c2 == 'b') goto <183:cond_true>
+A7 00 08 # goto +8         # goto <184:cond_false>
+# <183:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <185:cond_end>
+# <184:cond_false>
+10 00    # bipush 0        # false
+# <185:cond_end>
+14 0C 98 # aldc 3224       # s[3224] = "tests/bigting.c0: 159.5-159.23: assert failed"
+CF       # assert          # assert(c2 == 'b') [failure message on stack]
+15 06    # vload 6         # c3
+10 63    # bipush 99       # 'c'
+9F 00 06 # if_cmpeq +6     # if (c3 == 'c') goto <186:cond_true>
+A7 00 08 # goto +8         # goto <187:cond_false>
+# <186:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <188:cond_end>
+# <187:cond_false>
+10 00    # bipush 0        # false
+# <188:cond_end>
+14 0C C6 # aldc 3270       # s[3270] = "tests/bigting.c0: 160.5-160.23: assert failed"
+CF       # assert          # assert(c3 == 'c') [failure message on stack]
+15 00    # vload 0         # indepth
+10 01    # bipush 1        # true
+9F 00 0C # if_cmpeq +12    # if (indepth == true) goto <190:else>
+A7 00 03 # goto +3         # goto <189:then>
+# <189:then>
+10 01    # bipush 1        # true
+B0       # return          # 
+A7 00 03 # goto +3         # goto <191:endif>
+# <190:else>
+# <191:endif>
+14 0C F4 # aldc 3316       # s[3316] = ""
+14 0C F5 # aldc 3317       # s[3317] = ""
+B7 00 03 # invokenative 3  # string_equal("", "")
+14 0C F6 # aldc 3318       # s[3318] = "tests/bigting.c0: 163.5-163.34: assert failed"
+CF       # assert          # assertstring_equal("", "") [failure message on stack]
+14 0D 24 # aldc 3364       # s[3364] = "abc"
+10 00    # bipush 0        # 0
+B7 00 04 # invokenative 4  # string_charat("abc", 0)
+15 04    # vload 4         # c1
+9F 00 06 # if_cmpeq +6     # if (string_charat("abc", 0) == c1) goto <192:cond_true>
+A7 00 08 # goto +8         # goto <193:cond_false>
+# <192:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <194:cond_end>
+# <193:cond_false>
+10 00    # bipush 0        # false
+# <194:cond_end>
+14 0D 28 # aldc 3368       # s[3368] = "tests/bigting.c0: 164.5-164.43: assert failed"
+CF       # assert          # assert(string_charat("abc", 0) == c1) [failure message on stack]
+14 0D 56 # aldc 3414       # s[3414] = "abc"
+10 01    # bipush 1        # 1
+B7 00 04 # invokenative 4  # string_charat("abc", 1)
+15 05    # vload 5         # c2
+9F 00 06 # if_cmpeq +6     # if (string_charat("abc", 1) == c2) goto <195:cond_true>
+A7 00 08 # goto +8         # goto <196:cond_false>
+# <195:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <197:cond_end>
+# <196:cond_false>
+10 00    # bipush 0        # false
+# <197:cond_end>
+14 0D 5A # aldc 3418       # s[3418] = "tests/bigting.c0: 165.5-165.43: assert failed"
+CF       # assert          # assert(string_charat("abc", 1) == c2) [failure message on stack]
+14 0D 88 # aldc 3464       # s[3464] = "abc"
+10 02    # bipush 2        # 2
+B7 00 04 # invokenative 4  # string_charat("abc", 2)
+15 06    # vload 6         # c3
+9F 00 06 # if_cmpeq +6     # if (string_charat("abc", 2) == c3) goto <198:cond_true>
+A7 00 08 # goto +8         # goto <199:cond_false>
+# <198:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <200:cond_end>
+# <199:cond_false>
+10 00    # bipush 0        # false
+# <200:cond_end>
+14 0D 8C # aldc 3468       # s[3468] = "tests/bigting.c0: 166.5-166.43: assert failed"
+CF       # assert          # assert(string_charat("abc", 2) == c3) [failure message on stack]
+10 00    # bipush 0        # 0
+14 0D BA # aldc 3514       # s[3514] = ""
+B8 00 04 # invokestatic 4  # test_strings_recursive(0, "")
+36 07    # vstore 7        # s = test_strings_recursive(0, "");
+15 07    # vload 7         # s
+14 0D BB # aldc 3515       # s[3515] = "ZYXWVUTSRQPONMLKJIHGFEDCBA"
+B7 00 03 # invokenative 3  # string_equal(s, "ZYXWVUTSRQPONMLKJIHGFEDCBA")
+14 0D D6 # aldc 3542       # s[3542] = "tests/bigting.c0: 168.5-168.59: assert failed"
+CF       # assert          # assertstring_equal(s, "ZYXWVUTSRQPONMLKJIHGFEDCBA") [failure message on stack]
+10 01    # bipush 1        # true
+B0       # return          # 
+
+
+#<test_pow>
+02                # number of arguments = 2
+08                # number of local variables = 8
+00 1E             # code length = 30 bytes
+15 01    # vload 1         # y
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if (y == 1) goto <201:then>
+A7 00 09 # goto +9         # goto <202:else>
+# <201:then>
+15 00    # vload 0         # x
+B0       # return          # 
+A7 00 11 # goto +17        # goto <203:endif>
+# <202:else>
+15 00    # vload 0         # x
+15 00    # vload 0         # x
+15 01    # vload 1         # y
+10 01    # bipush 1        # 1
+64       # isub            # (y - 1)
+B8 00 06 # invokestatic 6  # test_pow(x, (y - 1))
+68       # imul            # (x * test_pow(x, (y - 1)))
+B0       # return          # 
+# <203:endif>
+
+
+#<test_recursive>
+00                # number of arguments = 0
+08                # number of local variables = 8
+00 1E             # code length = 30 bytes
+10 07    # bipush 7        # 7
+13 00 07 # ildc 7          # c[7] = 10000
+B8 00 06 # invokestatic 6  # test_pow(7, 10000)
+10 00    # bipush 0        # 0
+A1 00 06 # if_icmplt +6    # if (test_pow(7, 10000) < 0) goto <204:cond_true>
+A7 00 08 # goto +8         # goto <205:cond_false>
+# <204:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <206:cond_end>
+# <205:cond_false>
+10 00    # bipush 0        # false
+# <206:cond_end>
+14 0E 04 # aldc 3588       # s[3588] = "tests/bigting.c0: 180.5-180.36: assert failed"
+CF       # assert          # assert(test_pow(7, 10000) < 0) [failure message on stack]
+10 01    # bipush 1        # true
+B0       # return          # 
+
+
+#<test_mem>
+00                # number of arguments = 0
+08                # number of local variables = 8
+01 B6             # code length = 438 bytes
+BB 04    # new 4           # alloc(int)
+36 00    # vstore 0        # i1 = alloc(int);
+15 00    # vload 0         # i1
+2E       # imload          # *(i1)
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if (*(i1) == 0) goto <207:cond_true>
+A7 00 08 # goto +8         # goto <208:cond_false>
+# <207:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <209:cond_end>
+# <208:cond_false>
+10 00    # bipush 0        # false
+# <209:cond_end>
+14 0E 32 # aldc 3634       # s[3634] = "tests/bigting.c0: 196.5-196.22: assert failed"
+CF       # assert          # assert(*(i1) == 0) [failure message on stack]
+15 00    # vload 0         # i1
+10 01    # bipush 1        # 1
+4E       # imstore         # *(i1) = 1;
+15 00    # vload 0         # i1
+2E       # imload          # *(i1)
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if (*(i1) == 1) goto <210:cond_true>
+A7 00 08 # goto +8         # goto <211:cond_false>
+# <210:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <212:cond_end>
+# <211:cond_false>
+10 00    # bipush 0        # false
+# <212:cond_end>
+14 0E 60 # aldc 3680       # s[3680] = "tests/bigting.c0: 198.5-198.22: assert failed"
+CF       # assert          # assert(*(i1) == 1) [failure message on stack]
+BB 08    # new 8           # alloc(int*)
+36 01    # vstore 1        # i2 = alloc(int*);
+15 01    # vload 1         # i2
+2F       # amload          # *(i2)
+01       # aconst_null     # NULL
+9F 00 06 # if_cmpeq +6     # if (*(i2) == NULL) goto <213:cond_true>
+A7 00 08 # goto +8         # goto <214:cond_false>
+# <213:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <215:cond_end>
+# <214:cond_false>
+10 00    # bipush 0        # false
+# <215:cond_end>
+14 0E 8E # aldc 3726       # s[3726] = "tests/bigting.c0: 200.5-200.25: assert failed"
+CF       # assert          # assert(*(i2) == NULL) [failure message on stack]
+15 01    # vload 1         # i2
+15 00    # vload 0         # i1
+4F       # amstore         # *(i2) = i1;
+15 01    # vload 1         # i2
+2F       # amload          # *(i2)
+15 00    # vload 0         # i1
+9F 00 06 # if_cmpeq +6     # if (*(i2) == i1) goto <216:cond_true>
+A7 00 1A # goto +26        # goto <217:cond_false>
+# <216:cond_true>
+15 01    # vload 1         # i2
+2F       # amload          # *(i2)
+2E       # imload          # *(*(i2))
+15 00    # vload 0         # i1
+2E       # imload          # *(i1)
+9F 00 06 # if_cmpeq +6     # if (*(*(i2)) == *(i1)) goto <219:cond_true>
+A7 00 08 # goto +8         # goto <220:cond_false>
+# <219:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <221:cond_end>
+# <220:cond_false>
+10 00    # bipush 0        # false
+# <221:cond_end>
+A7 00 05 # goto +5         # goto <218:cond_end>
+# <217:cond_false>
+10 00    # bipush 0        # false
+# <218:cond_end>
+14 0E BC # aldc 3772       # s[3772] = "tests/bigting.c0: 202.5-202.38: assert failed"
+CF       # assert          # assert((*(i2) == i1) && (*(*(i2)) == *(i1))) [failure message on stack]
+BB 01    # new 1           # alloc(char)
+36 02    # vstore 2        # c = alloc(char);
+15 02    # vload 2         # c
+34       # cmload          # *(c)
+10 00    # bipush 0        # 0
+B7 00 02 # invokenative 2  # char_chr(0)
+9F 00 06 # if_cmpeq +6     # if (*(c) == char_chr(0)) goto <222:cond_true>
+A7 00 08 # goto +8         # goto <223:cond_false>
+# <222:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <224:cond_end>
+# <223:cond_false>
+10 00    # bipush 0        # false
+# <224:cond_end>
+14 0E EA # aldc 3818       # s[3818] = "tests/bigting.c0: 204.5-204.31: assert failed"
+CF       # assert          # assert(*(c) == char_chr(0)) [failure message on stack]
+15 02    # vload 2         # c
+10 61    # bipush 97       # 'a'
+55       # cmstore         # *(c) = 'a';
+15 02    # vload 2         # c
+34       # cmload          # *(c)
+10 61    # bipush 97       # 'a'
+9F 00 06 # if_cmpeq +6     # if (*(c) == 'a') goto <225:cond_true>
+A7 00 08 # goto +8         # goto <226:cond_false>
+# <225:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <227:cond_end>
+# <226:cond_false>
+10 00    # bipush 0        # false
+# <227:cond_end>
+14 0F 18 # aldc 3864       # s[3864] = "tests/bigting.c0: 206.5-206.23: assert failed"
+CF       # assert          # assert(*(c) == 'a') [failure message on stack]
+15 02    # vload 2         # c
+10 54    # bipush 84       # 'T'
+55       # cmstore         # *(c) = 'T';
+15 02    # vload 2         # c
+34       # cmload          # *(c)
+10 54    # bipush 84       # 'T'
+B7 00 05 # invokenative 5  # char_ord('T')
+B7 00 02 # invokenative 2  # char_chr(char_ord('T'))
+9F 00 06 # if_cmpeq +6     # if (*(c) == char_chr(char_ord('T'))) goto <228:cond_true>
+A7 00 08 # goto +8         # goto <229:cond_false>
+# <228:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <230:cond_end>
+# <229:cond_false>
+10 00    # bipush 0        # false
+# <230:cond_end>
+14 0F 46 # aldc 3910       # s[3910] = "tests/bigting.c0: 208.5-208.43: assert failed"
+CF       # assert          # assert(*(c) == char_chr(char_ord('T'))) [failure message on stack]
+10 05    # bipush 5        # 5
+BC 04    # newarray 4      # alloc_array(int, 5)
+36 03    # vstore 3        # a1 = alloc_array(int, 5);
+15 03    # vload 3         # a1
+10 00    # bipush 0        # 0
+63       # aadds           # &a1[0]
+2E       # imload          # a1[0]
+10 00    # bipush 0        # 0
+9F 00 06 # if_cmpeq +6     # if (a1[0] == 0) goto <231:cond_true>
+A7 00 08 # goto +8         # goto <232:cond_false>
+# <231:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <233:cond_end>
+# <232:cond_false>
+10 00    # bipush 0        # false
+# <233:cond_end>
+14 0F 74 # aldc 3956       # s[3956] = "tests/bigting.c0: 212.5-212.24: assert failed"
+CF       # assert          # assert(a1[0] == 0) [failure message on stack]
+15 03    # vload 3         # a1
+10 01    # bipush 1        # 1
+63       # aadds           # &a1[1]
+2E       # imload          # a1[1]
+15 03    # vload 3         # a1
+10 02    # bipush 2        # 2
+63       # aadds           # &a1[2]
+2E       # imload          # a1[2]
+9F 00 06 # if_cmpeq +6     # if (a1[1] == a1[2]) goto <234:cond_true>
+A7 00 08 # goto +8         # goto <235:cond_false>
+# <234:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <236:cond_end>
+# <235:cond_false>
+10 00    # bipush 0        # false
+# <236:cond_end>
+14 0F A2 # aldc 4002       # s[4002] = "tests/bigting.c0: 213.5-213.28: assert failed"
+CF       # assert          # assert(a1[1] == a1[2]) [failure message on stack]
+15 03    # vload 3         # a1
+10 04    # bipush 4        # 4
+63       # aadds           # &a1[4]
+10 01    # bipush 1        # 1
+4E       # imstore         # a1[4] = 1;
+15 03    # vload 3         # a1
+10 04    # bipush 4        # 4
+63       # aadds           # &a1[4]
+2E       # imload          # a1[4]
+10 01    # bipush 1        # 1
+9F 00 06 # if_cmpeq +6     # if (a1[4] == 1) goto <237:cond_true>
+A7 00 08 # goto +8         # goto <238:cond_false>
+# <237:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <239:cond_end>
+# <238:cond_false>
+10 00    # bipush 0        # false
+# <239:cond_end>
+14 0F D0 # aldc 4048       # s[4048] = "tests/bigting.c0: 215.5-215.24: assert failed"
+CF       # assert          # assert(a1[4] == 1) [failure message on stack]
+10 00    # bipush 0        # 0
+BC 04    # newarray 4      # alloc_array(int, 0)
+36 04    # vstore 4        # a2 = alloc_array(int, 0);
+BB 18    # new 24          # alloc(banana)
+36 05    # vstore 5        # b = alloc(banana);
+15 05    # vload 5         # b
+62 00    # aaddf 0         # &b->farm
+14 0F FE # aldc 4094       # s[4094] = "CMU"
+4F       # amstore         # b->farm = "CMU";
+15 05    # vload 5         # b
+62 08    # aaddf 8         # &b->date
+13 00 08 # ildc 8          # c[8] = 267064353
+4E       # imstore         # b->date = 267064353;
+15 05    # vload 5         # b
+62 0C    # aaddf 12        # &b->count
+13 00 09 # ildc 9          # c[9] = 15122
+4E       # imstore         # b->count = 15122;
+15 05    # vload 5         # b
+62 10    # aaddf 16        # &b->aisle
+10 43    # bipush 67       # 'C'
+55       # cmstore         # b->aisle = 'C';
+15 05    # vload 5         # b
+62 00    # aaddf 0         # &b->farm
+2F       # amload          # b->farm
+14 10 02 # aldc 4098       # s[4098] = "CMU"
+B7 00 03 # invokenative 3  # string_equal(b->farm, "CMU")
+14 10 06 # aldc 4102       # s[4102] = "tests/bigting.c0: 226.5-226.42: assert failed"
+CF       # assert          # assertstring_equal(b->farm, "CMU") [failure message on stack]
+15 05    # vload 5         # b
+62 08    # aaddf 8         # &b->date
+2E       # imload          # b->date
+13 00 0A # ildc 10         # c[10] = 267064353
+9F 00 06 # if_cmpeq +6     # if (b->date == 267064353) goto <240:cond_true>
+A7 00 08 # goto +8         # goto <241:cond_false>
+# <240:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <242:cond_end>
+# <241:cond_false>
+10 00    # bipush 0        # false
+# <242:cond_end>
+14 10 34 # aldc 4148       # s[4148] = "tests/bigting.c0: 227.5-227.34: assert failed"
+CF       # assert          # assert(b->date == 267064353) [failure message on stack]
+15 05    # vload 5         # b
+62 0C    # aaddf 12        # &b->count
+2E       # imload          # b->count
+13 00 0B # ildc 11         # c[11] = 15122
+9F 00 06 # if_cmpeq +6     # if (b->count == 15122) goto <243:cond_true>
+A7 00 08 # goto +8         # goto <244:cond_false>
+# <243:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <245:cond_end>
+# <244:cond_false>
+10 00    # bipush 0        # false
+# <245:cond_end>
+14 10 62 # aldc 4194       # s[4194] = "tests/bigting.c0: 228.5-228.31: assert failed"
+CF       # assert          # assert(b->count == 15122) [failure message on stack]
+15 05    # vload 5         # b
+62 10    # aaddf 16        # &b->aisle
+34       # cmload          # b->aisle
+10 43    # bipush 67       # 'C'
+9F 00 06 # if_cmpeq +6     # if (b->aisle == 'C') goto <246:cond_true>
+A7 00 08 # goto +8         # goto <247:cond_false>
+# <246:cond_true>
+10 01    # bipush 1        # true
+A7 00 05 # goto +5         # goto <248:cond_end>
+# <247:cond_false>
+10 00    # bipush 0        # false
+# <248:cond_end>
+14 10 90 # aldc 4240       # s[4240] = "tests/bigting.c0: 229.5-229.29: assert failed"
+CF       # assert          # assert(b->aisle == 'C') [failure message on stack]
+10 01    # bipush 1        # true
+B0       # return          # 
+
+
+#<test_contracts_helper>
+06                # number of arguments = 6
+08                # number of local variables = 8
+00 26             # code length = 38 bytes
+10 00    # bipush 0        # 0
+36 06    # vstore 6        # i = 0;
+# <249:loop>
+15 06    # vload 6         # i
+15 05    # vload 5         # n
+A1 00 06 # if_icmplt +6    # if (i < n) goto <250:body>
+A7 00 15 # goto +21        # goto <251:exit>
+# <250:body>
+15 04    # vload 4         # arr
+15 06    # vload 6         # i
+63       # aadds           # &arr[i]
+15 01    # vload 1         # x
+4E       # imstore         # arr[i] = x;
+15 06    # vload 6         # i
+10 01    # bipush 1        # 1
+60       # iadd            # 
+36 06    # vstore 6        # i += 1;
+A7 FF E7 # goto -25        # goto <249:loop>
+# <251:exit>
+15 02    # vload 2         # b
+10 01    # bipush 1        # 
+82       # ixor            # !(b)
+B0       # return          # 
+
+
+#<test_contracts>
+00                # number of arguments = 0
+08                # number of local variables = 8
+00 37             # code length = 55 bytes
+BB 04    # new 4           # alloc(int)
+36 00    # vstore 0        # ptr = alloc(int);
+15 00    # vload 0         # ptr
+10 05    # bipush 5        # 5
+4E       # imstore         # *(ptr) = 5;
+15 00    # vload 0         # ptr
+2E       # imload          # *(ptr)
+36 01    # vstore 1        # x = *(ptr);
+10 00    # bipush 0        # false
+36 02    # vstore 2        # b = false;
+14 10 BE # aldc 4286       # s[4286] = "Wahoo!"
+36 03    # vstore 3        # s = "Wahoo!";
+10 0A    # bipush 10       # 10
+36 04    # vstore 4        # n = 10;
+15 04    # vload 4         # n
+BC 04    # newarray 4      # alloc_array(int, n)
+36 05    # vstore 5        # arr = alloc_array(int, n);
+15 00    # vload 0         # ptr
+15 01    # vload 1         # x
+15 02    # vload 2         # b
+15 03    # vload 3         # s
+15 05    # vload 5         # arr
+15 04    # vload 4         # n
+B8 00 09 # invokestatic 9  # test_contracts_helper(ptr, x, b, s, arr, n)
+14 10 C5 # aldc 4293       # s[4293] = "tests/bigting.c0: 261.5-261.57: assert failed"
+CF       # assert          # asserttest_contracts_helper(ptr, x, b, s, arr, n) [failure message on stack]
+10 01    # bipush 1        # true
+B0       # return          # 
+
+00 06             # native count
+# native pool
+00 02 00 64       # string_join
+00 01 00 62       # string_fromchar
+00 01 00 5B       # char_chr
+00 02 00 5F       # string_equal
+00 02 00 5D       # string_charat
+00 01 00 5C       # char_ord
+

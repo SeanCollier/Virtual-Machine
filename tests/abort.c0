@@ -1,0 +1,12 @@
+/**************************************************************************/
+/*              COPYRIGHT Carnegie Mellon University 2020                 */
+/* Do not post this file or any derivative on a public site or repository */
+/**************************************************************************/
+
+
+#use <conio>
+
+int main () {
+  error("assertion failure");
+  return 0;
+}

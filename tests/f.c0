@@ -1,0 +1,22 @@
+#use <string>
+#use <conio>
+
+int f(int x, int y)
+{
+  int z;
+  if(y == 0){
+    z = x;
+  }
+  else{
+    z = f(x+y, y - 1);
+  }
+  
+  return z;
+}
+
+int main()
+{
+  print("Happy Thanksgiving!\n");
+  return f(0,10);
+}
+

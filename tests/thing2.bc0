@@ -1,0 +1,39 @@
+C0 C0 FF EE       # magic number
+00 15             # version 10, arch = 1 (64 bits)
+
+00 01             # int pool count
+# int pool
+00 00 3B 12
+
+00 35             # string pool total size
+# string pool
+68 65 6C 6C 6F 00  # "hello"
+6F 68 20 6E 6F 00  # "oh no"
+74 65 73 74 73 2F 74 68 69 6E 67 32 2E 63 30 3A 20 35 2E 33 2D 35 2E 31 36 3A 20 61 73 73 65 72 74 20 66 61 69 6C 65 64 00  # "tests/thing2.c0: 5.3-5.16: assert failed"
+
+00 01             # function count
+# function_pool
+
+#<main>
+00                # number of arguments = 0
+04                # number of local variables = 4
+00 1F             # code length = 31 bytes
+14 00 00 # aldc 0          # s[0] = "hello"
+36 00    # vstore 0        # a = "hello";
+14 00 06 # aldc 6          # s[6] = "oh no"
+36 01    # vstore 1        # b = "oh no";
+13 00 00 # ildc 0          # c[0] = 15122
+36 02    # vstore 2        # x = 15122;
+10 01    # bipush 1        # true
+14 00 0C # aldc 12         # s[12] = "tests/thing2.c0: 5.3-5.16: assert failed"
+CF       # assert          # asserttrue [failure message on stack]
+15 02    # vload 2         # x
+15 02    # vload 2         # x
+68       # imul            # (x * x)
+36 03    # vstore 3        # y = (x * x);
+15 03    # vload 3         # y
+B0       # return          # 
+
+00 00             # native count
+# native pool
+

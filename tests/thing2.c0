@@ -1,0 +1,8 @@
+int main() {
+  string a = "hello";
+  string b = "oh no";
+  int x = 15122;
+  assert(true);
+  int y = x * x;
+  return y;
+}

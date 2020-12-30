@@ -1,0 +1,286 @@
+#use <conio>
+#use <string>
+
+
+bool test_arith() {
+    //Defining int max and int min for easy use
+    int INT_MAX = 2147483647;
+    int INT_MIN = -2147483648;
+
+
+    // Do some arithmetic
+    //// Adds and subs----------------------------------------------------------
+    // Some general addition
+    assert(0 + 0 == 0);
+    assert(10 + 10 == 20);
+    assert(20 + 20 == 40);
+    // Some general subs
+    assert( 0 - 0 == 0);
+    assert(10 - 10 == 0);
+    assert(20 - 20 == 0);
+    assert(0 - 1 == -1);
+    assert(100 - 50 == 50);
+    // Some possible edge cases
+    assert(INT_MAX + INT_MIN == -1);
+    assert(INT_MAX - INT_MAX == 0);
+    assert(INT_MIN - INT_MIN == 0);
+    // Some overflow
+    assert(INT_MAX + 1 == INT_MIN);
+    assert(INT_MAX + 2 == INT_MIN + 1);
+    assert(INT_MAX + INT_MAX + INT_MAX == INT_MAX - 2);
+    assert(INT_MIN - 1 == INT_MAX);
+
+
+    //// Muls-------------------------------------------------------------------
+    // Some general muls
+    assert(0*0 == 0);
+    assert(10*10 == 100);
+    assert(20*20 == 400);
+    // Some possible edge cases
+    assert(INT_MAX*1 == INT_MAX);
+    assert(INT_MIN*1 == INT_MIN);
+    // Some overflow
+    assert(INT_MIN*-1 == INT_MIN);
+    assert(INT_MAX*INT_MAX == 1);
+    assert(INT_MAX*2 == -2);
+    assert(INT_MIN*2 == 0);
+
+
+    //// Divs-------------------------------------------------------------------
+    // Some general divs
+    assert(0/1 == 0);
+    assert(2/2 == 1);
+    assert(20/20 == 1);
+    // Some possible edge cases
+    assert(INT_MAX/INT_MAX == 1);
+    assert(INT_MIN/INT_MIN == 1);
+    // Some errors (uncomment to run -- should cause arith error)
+    // 1/0; // uncomment -- should error
+    // INT_MIN/-1 // uncomment -- should error
+
+
+    //// Mods-------------------------------------------------------------------
+    // Some general mods
+    assert(0%1 == 0);
+    assert(5%1 == 0);
+    assert(10%3 == 1);
+    assert(111%10 == 1);
+    assert(112%10 == 2);
+    // Some negative mods
+    assert(-123%5 == -3);
+    assert(-123%-5 == -3);
+    assert(5%-1 == 0);
+    // Some possible edge cases
+    assert(INT_MAX%INT_MAX == 0);
+    assert(INT_MIN%INT_MIN == 0);
+    // Some errors (uncomment to run -- should cause arith error)
+    // 1%0 // uncomment -- should error
+    // INT_MIN/-1 // uncomment -- should error
+    //// TODO ADD SHIFTS and binary ops
+
+
+    return true;
+}
+
+
+bool test_locals() {
+    //// Test locals------------------------------------------------------------
+    // Initiate some of differing sizes
+    int i0 = 0;
+    int i10 = 10;
+    int i100 = 100;
+    int i1000 = 1000;
+    int i10000 = 10000;
+    int i100000 = 100000;
+    int i9s = 9999999;
+    int j = 10;
+    // Use and reassign some
+    assert(i0 + i10 == 10);
+    assert(i10 - i10 == 0);
+    assert(i9s / i9s == 1);
+    j = i100;
+    assert(j == i100);
+    j = i100%5;
+    assert(j == 0);
+    i9s = 99;
+    assert(i9s == 99);
+
+
+    return true;
+}
+
+
+bool test_ctrlflow() {
+    //// Test some control flow-------------------------------------------------
+    // The following should never abort
+    if (0 == 0) assert(true); else assert(false);
+    if (1 == 1) assert(true); else assert(false);
+    if (1 == 0) assert(false); else assert(true);
+    if (0 < 1) assert(true); else assert(false);
+    if (0 > 1) assert(false); else assert(true);
+    if (0 <= 1) assert(true); else assert(false);
+    if (1 <= 1) assert(true); else assert(false);
+    if (0 > 1) assert(false); else assert(true);
+    if (0 >= 1) assert(false); else assert(true);
+    for(int i = 0; i < 10; i++) {
+        assert(i >= 0);
+    }
+    int i = 10;
+    while (i > 0) {
+        assert(i > 0);
+        i--;
+    }
+    assert(i == 0);
+    i = 10;
+    return true;
+}
+
+
+string test_strings_recursive(int x, string s) {
+    if (x == 26) return "";
+    else {
+        return string_join(test_strings_recursive(x + 1, s), string_fromchar(char_chr(65 + x)));
+    }
+}
+
+
+bool test_strings(bool indepth)  // also tests chars
+// pass indepth true to also use natives and recursion
+// pass indepth false to just test making some strings
+{   
+    string s1 = "1";
+    string s2 = "2";
+    string s3 = "| This is a crazy test, right? I mean, strings should always work...\n| This should look like a bit of text. Hopefully. Let's try other cool things with this string.\n|\t1 + 5 = 6\n| Neat!\n| Ok that's it.";
+    //println(s3); // uncomment to print the string above
+    char c1 = 'a';
+    char c2 = 'b';
+    char c3 = 'c';
+    assert(c1 == 'a');
+    assert(c2 == 'b');
+    assert(c3 == 'c');
+    if (!indepth) return true;
+    // This is where the natives/recursion get used
+    assert(string_equal("", ""));
+    assert(string_charat("abc", 0) == c1);
+    assert(string_charat("abc", 1) == c2);
+    assert(string_charat("abc", 2) == c3);
+    string s = test_strings_recursive(0, "");
+    assert(string_equal(s, "ZYXWVUTSRQPONMLKJIHGFEDCBA"));
+    return true;
+}
+
+
+int test_pow(int x, int y) { // compute x^y
+    if (y == 1) return x;
+    else return x * test_pow(x, y-1);
+}
+
+
+bool test_recursive() {
+    assert(test_pow(7, 10000) < 0);
+    return true;
+}
+
+
+typedef struct banana_header banana;
+struct banana_header {
+    string farm;
+    int date;
+    int count;
+    char aisle;
+};
+
+
+bool test_mem() {
+    int* i1 = alloc(int);
+    assert(*i1 == 0);
+    *i1 = 1;
+    assert(*i1 == 1);
+    int** i2 = alloc(int*);
+    assert(*i2 == NULL);
+    *i2 = i1;
+    assert(*i2 == i1 && **i2 == *i1);
+    char* c = alloc(char);
+    assert(*c == char_chr(0));
+    *c = 'a';
+    assert(*c == 'a');
+    *c = 'T';
+    assert(*c == char_chr(char_ord('T'))); // because why not :P
+
+
+    int[] a1 = alloc_array(int, 5);
+    assert(a1[0] == 0);
+    assert(a1[1] == a1[2]);
+    a1[4] = 1;
+    assert(a1[4] == 1);
+    int[] a2 = alloc_array(int, 0);
+    //@assert \length(a2) == 0;
+    //a2[0]; // uncomment to run -- should error
+
+
+    banana* b = alloc(banana);
+    b->farm = "CMU";
+    b->date = 0xFEB1421;
+    b->count = 15122;
+    b->aisle = 'C';
+    assert(string_equal(b->farm, "CMU"));
+    assert(b->date == 267064353);
+    assert(b->count == 15122);
+    assert(b->aisle == 'C');
+    return true;
+}
+
+
+bool test_contracts_helper(int* ptr, int x, bool b, string s, int[] arr, int n)
+//@requires \length(arr) == n;
+//@requires 0 <= x && x < n;
+//@requires !b;
+//@ensures \result == true;
+//@requires ptr != NULL;
+//@ensures arr[0] == x;
+{
+    //@assert(!b);
+    //@assert(x == 5);
+    for (int i = 0; i < n; i++)
+    //@loop_invariant 0 <= i && i <= n;
+    {
+        arr[i] = x;
+    }
+    return !b;
+}
+
+
+bool test_contracts() {
+    int* ptr = alloc(int);
+    *ptr = 5;
+    int x = *ptr;
+    bool b = false;
+    string s = "Wahoo!";
+    int n = 10;
+    int[] arr = alloc_array(int, n);
+    assert(test_contracts_helper(ptr, x, b, s, arr, n));
+    return true;
+}
+
+
+int main() {
+    bool tests = true;
+    tests = tests && test_arith();
+    assert(tests);
+    tests = tests && test_locals();
+    assert(tests);
+    tests = tests && test_ctrlflow();
+    assert(tests);
+    tests = tests && test_strings(true); // if testing for memory leaks, pass false (uses natives that like to leave memory lying around)
+    assert(tests);
+    tests = tests && test_recursive();
+    assert(tests);
+    tests = tests && test_mem();
+    assert(tests);
+    tests = tests && test_contracts();
+
+
+    if (tests) return 0;
+    assert(false); // These two lines
+    return 1;      // should never run
+}
